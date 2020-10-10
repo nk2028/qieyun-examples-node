@@ -10,7 +10,7 @@ npm install qieyun-examples-node@0.0.1
 
 ```javascript
 > const Qieyun = require('qieyun');
-> const QieyunExamples = require('./index.js');
+> const QieyunExamples = require('qieyun-examples-node');
 > let sr = Qieyun.query漢字('少')[0].小韻號;
 > let p = Qieyun.get音韻地位(sr);
 ```
