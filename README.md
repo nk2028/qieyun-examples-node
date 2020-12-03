@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm install qieyun-examples-node@0.0.1
+npm install qieyun-examples-node@0.0.2
 ```
 
 ## Usage
