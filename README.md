@@ -31,6 +31,10 @@ npm install qieyun-examples-node@0.0.2
 'sjeux'
 > QieyunExamples.unt(p);
 'ɕjɛw˦˦˥'
+> QieyunExamples.unt_2020(p);
+'ɕew˦˥'
+> QieyunExamples.gwongzau(p);
+'siu2'
 > QieyunExamples.dv9(p);
 'siouˊ'
 ```
