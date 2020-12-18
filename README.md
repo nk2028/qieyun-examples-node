@@ -1,9 +1,11 @@
-# qieyun-examples-node [![](https://github.com/nk2028/qieyun-examples-node/workflows/Test/badge.svg)](https://github.com/nk2028/qieyun-examples-node/actions?query=workflow%3A%22Test%22)
+# qieyun-examples-node
+
+[![](https://badge.fury.io/js/qieyun-examples-node.svg)](https://www.npmjs.com/package/qieyun-examples-node) [![](https://github.com/nk2028/qieyun-examples-node/workflows/Test/badge.svg)](https://github.com/nk2028/qieyun-examples-node/actions?query=workflow%3A%22Test%22)
 
 ## Install
 
 ```sh
-npm install qieyun-examples-node@0.0.2
+npm install qieyun-examples-node@0.0.3
 ```
 
 ## Usage
@@ -31,8 +33,8 @@ npm install qieyun-examples-node@0.0.2
 'sjeux'
 > QieyunExamples.unt(p);
 'ɕjɛw˦˦˥'
-> QieyunExamples.unt_2020(p);
-'ɕew˦˥'
+> QieyunExamples.unt_j(p);
+'ɕe̋w'
 > QieyunExamples.gwongzau(p);
 'siu2'
 > QieyunExamples.dv9(p);

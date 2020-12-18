@@ -1,6 +1,6 @@
 {
   "name": "qieyun-examples-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Qieyun examples (Node.js version)",
   "main": "index.js",
   "scripts": {

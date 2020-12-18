@@ -15,6 +15,6 @@ let p = Qieyun.get音韻地位(sr);
 
 QieyunExamples.kyonh(p).should.equal('sjeux');
 QieyunExamples.unt(p).should.equal('ɕjɛw˦˦˥');
-QieyunExamples.unt_2020(p).should.equal('ɕew˦˥');
+QieyunExamples.unt_j(p).should.equal('ɕe̋w');
 QieyunExamples.gwongzau(p).should.equal('siu2');
 QieyunExamples.dv9(p).should.equal('siouˊ');
