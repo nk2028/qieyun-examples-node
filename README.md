@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install qieyun-examples-node@0.0.3
+npm install qieyun-examples-node@0.0.4
 ```
 
 ## Usage
@@ -31,12 +31,10 @@ npm install qieyun-examples-node@0.0.3
 ```javascript
 > QieyunExamples.kyonh(p);
 'sjeux'
-> QieyunExamples.unt(p);
-'ɕjɛw˦˦˥'
 > QieyunExamples.unt_j(p);
 'ɕe̋w'
 > QieyunExamples.gwongzau(p);
 'siu2'
-> QieyunExamples.dv9(p);
+> QieyunExamples.ayaka_v8(p);
 'siouˊ'
 ```
