@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install qieyun-examples-node@0.0.4
+npm install qieyun-examples-node@0.1.0
 ```
 
 ## Usage
@@ -13,28 +13,15 @@ npm install qieyun-examples-node@0.0.4
 ```javascript
 > const Qieyun = require('qieyun');
 > const QieyunExamples = require('qieyun-examples-node');
-> let sr = Qieyun.query漢字('少')[0].小韻號;
-> let p = Qieyun.get音韻地位(sr);
-```
-
-從小韻號推導：
-
-```javascript
-> QieyunExamples.baxter(sr);
-'syewX'
-> QieyunExamples.putonghua(sr);
-'shao3'
-```
-
-從音韻地位推導：
-
-```javascript
+> let 音韻地位 = Qieyun.query漢字('少')[0].音韻地位;
 > QieyunExamples.kyonh(p);
 'sjeux'
+> QieyunExamples.baxter(sr);
+'syewX'
 > QieyunExamples.unt_j(p);
 'ɕe̋w'
+> QieyunExamples.putonghua(sr);
+'shao3'
 > QieyunExamples.gwongzau(p);
 'siu2'
-> QieyunExamples.ayaka_v8(p);
-'siouˊ'
 ```
