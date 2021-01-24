@@ -14,14 +14,14 @@ npm install qieyun-examples-node@0.1.0
 > const Qieyun = require('qieyun');
 > const QieyunExamples = require('qieyun-examples-node');
 > let 音韻地位 = Qieyun.query漢字('少')[0].音韻地位;
-> QieyunExamples.kyonh(p);
+> QieyunExamples.kyonh(音韻地位);
 'sjeux'
-> QieyunExamples.baxter(sr);
+> QieyunExamples.baxter(音韻地位);
 'syewX'
-> QieyunExamples.unt_j(p);
+> QieyunExamples.unt_j(音韻地位);
 'ɕe̋w'
-> QieyunExamples.putonghua(sr);
+> QieyunExamples.putonghua(音韻地位);
 'shao3'
-> QieyunExamples.gwongzau(p);
+> QieyunExamples.gwongzau(音韻地位);
 'siu2'
 ```
