@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install qieyun-examples-node@0.1.0
+npm install qieyun-examples-node@0.1.1
 ```
 
 ## Usage
@@ -20,6 +20,8 @@ npm install qieyun-examples-node@0.1.0
 'syewX'
 > QieyunExamples.unt_j(音韻地位);
 'ɕe̋w'
+> QieyunExamples.fanwan(音韻地位);
+'shiu2';
 > QieyunExamples.putonghua(音韻地位);
 'shao3'
 > QieyunExamples.gwongzau(音韻地位);

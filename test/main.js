@@ -11,5 +11,6 @@ let 音韻地位 = Qieyun.query字頭('少')[0].音韻地位;
 QieyunExamples.kyonh(音韻地位).should.equal('sjeux');
 QieyunExamples.baxter(音韻地位).should.equal('syewX');
 QieyunExamples.unt_j(音韻地位).should.equal('ɕe̋w');
+QieyunExamples.fanwan(音韻地位).should.equal('shiu2');
 QieyunExamples.putonghua(音韻地位).should.equal('shao3');
 QieyunExamples.gwongzau(音韻地位).should.equal('siu2');
