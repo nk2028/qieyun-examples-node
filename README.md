@@ -1,3 +1,7 @@
+**Deprecated: The functions of this project have been merged into [qieyun-examples](https://github.com/nk2028/qieyun-examples).**
+
+---
+
 # qieyun-examples-node
 
 [![](https://badge.fury.io/js/qieyun-examples-node.svg)](https://www.npmjs.com/package/qieyun-examples-node) [![](https://github.com/nk2028/qieyun-examples-node/workflows/Test/badge.svg)](https://github.com/nk2028/qieyun-examples-node/actions?query=workflow%3A%22Test%22)
